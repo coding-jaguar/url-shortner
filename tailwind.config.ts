@@ -8,10 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        // Primary
+        cyan: "#2ACFCF",
+        darkViolet: "#3B3054",
+        // Secondary
+        // Neutral
+        grayishViolet: "hsl(257, 7%, 63%)",
+        veryDarkBlue: "#35323E",
+        veryDarkViolet: "#232127",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "shorten-desktop": "url('givenstuff/images/bg-shorten-desktop.svg')",
+        "boost-desktop": "url('givenstuff/images/bg-boost-desktop.svg')",
       },
     },
   },
